@@ -7,23 +7,18 @@ const Formation = (props) => {
 
         return (
                 <>
-                        <h2>Compétences</h2>
+                <br />
+                        <h2>Formation</h2>
                         <Card body className="text-left" fluid>
-                                <CardTitle><b>Développement</b></CardTitle>
-                                <CardText>HTML / CSS / JS <br />
-                                        React.js (Hooks/Context/Redux)<br />
-                                        Node (Express)<br />
-                                        SQL<br />
-                                        PHP<br />
-                                        Git<br />
-                                        AGILE/SCRUM<br />
-                                        Hébergement</CardText>
-
-                                <CardTitle><b>Informatique</b></CardTitle>
-                                <CardText>Diagnostique de panne<br />
-                                        Réseaux et systèmes réseau<br />
-                                        Windows, MacOS & Linux<br />
-                                        Suite Adobe (Ps, Lr, Pr, Id)<br /></CardText>
+                                <CardTitle><b>Developpeur Web & Mobile,</b></CardTitle>
+                                <CardText>Wild Code School, Lyon2<br />
+                                        Formation de développeur Web et Mobile</CardText>
+                        </Card>
+                        <br />
+                        <Card body className="text-left" fluid>
+                                <CardTitle><b>BTS IRIS</b></CardTitle>
+                                <CardText>Lycée Edouard Branly, Lyon5<br />
+                                        Informatique et Réseaux pour l’Industrie et Les Services techniques</CardText>
                         </Card>
                 </>
         )

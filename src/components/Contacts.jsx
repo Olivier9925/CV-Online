@@ -6,6 +6,7 @@ const Contacts = (props) => {
 
         return (
                 <>
+                <br />
                         <h2>Contact</h2>
                         <Card body className="text-left" fluid>
                                 <CardText>
