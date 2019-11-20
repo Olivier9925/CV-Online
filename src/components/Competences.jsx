@@ -7,6 +7,7 @@ const Competences = (props) => {
 
         return (
                 <>
+                        <br />
                         <h2>Compétences</h2>
                         <Card body className="text-left" fluid>
                                 <CardTitle><b>Développement</b></CardTitle>
@@ -24,6 +25,25 @@ const Competences = (props) => {
                                         Réseaux et systèmes réseau<br />
                                         Windows, MacOS & Linux<br />
                                         Suite Adobe (Ps, Lr, Pr, Id)<br /></CardText>
+                        </Card>
+                        <br />
+                        <h2>Soft Skills</h2>
+                        <Card body className="text-left" fluid>
+                                <CardText>Persévérance<br />
+                                        Esprit d’équipe<br />
+                                        Sens du service<br />
+                                        Communication<br /></CardText>
+                        </Card>
+                        <br />
+                        <h2>Intérêts</h2>
+                        <Card body className="text-left" fluid>
+                                <CardText><b>Sports :</b><br />
+                                        Roller-Hockey depuis 20 ans<br />
+                                        entraîneur (5 ans)<br />
+                                        le ski, la randonnée.<br /><br />
+                                        <b>Autres :</b><br />
+                                        photographie,<br />
+                                        vidéo & montage vidéo<br /></CardText>
                         </Card>
                 </>
         )

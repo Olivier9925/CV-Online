@@ -25,7 +25,7 @@ const Liens = (props) => {
                 <div style={styleCard}>
                         <a href="http://bit.ly/2WSe3dS" target="_blank"><Button color="danger" style={styleButton} >LinkedIn</Button></a>
                         <a href="http://bit.ly/2WRwGyY" target="_blank"><Button color="danger" style={styleButton} >GitHub</Button></a>
-                        <a href="http://olivier.allard-jacquin.com" target="_blank"><Button color="danger" style={styleButton} >CV</Button></a>
+                        <a href="http://olivier.allard-jacquin.com/CV.pdf" target="_blank"><Button color="danger" style={styleButton} >CV</Button></a>
 
                 </div>
         )

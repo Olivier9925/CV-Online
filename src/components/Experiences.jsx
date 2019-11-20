@@ -4,6 +4,7 @@ import { Card, CardTitle, CardText, Container } from 'reactstrap';
 const Experiences = (props) => {
         return (
                 <>
+                        <br />
                         <h2>Expériences</h2>
                         <Card body className="text-left">
                                 <CardTitle><b>Formation Développeur web et mobile</b></CardTitle>
