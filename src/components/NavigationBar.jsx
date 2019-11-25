@@ -5,11 +5,11 @@ import photoOAJ from '../assets/OAJ.png'
 const NavigationBar = (props) => {
 
         const styleBar = {
-                backgroundColor: "#2eae71",
-                border: "#1a6a44 solid 1px",
+                backgroundColor: "transparent",
+                border: "transparent solid 1px",
                 borderRadius: '5px',
                 margin: "10px 0px",
-                color: "#FFFFFF"
+                color: "#2eae71",
         }
         const stylePhoto = {
                 width: "100px",
@@ -21,9 +21,9 @@ const NavigationBar = (props) => {
 
                 <Jumbotron style={styleBar} fluid>
                         <Container fluid>
-                                <img src={photoOAJ} style={stylePhoto} />
-                                <h1 className="display-3">Olivier ALLARD-JACQUIN</h1>
-                                <p className="lead">Développeur Web FullStack, JS, React, Node (junior)</p>
+                                <img src={photoOAJ} style={stylePhoto} /><br /><br />
+                                <h1 style={{ fontSize: "25px" }}>Olivier <b>ALLARD-JACQUIN</b></h1>
+                                <p className="lead" style={{ color: "#ABABAB", fontSize: "15px" }}>Développeur Web FullStack, JS, <b>React</b>, Node (junior)</p>
                         </Container>
                 </Jumbotron>
         )

@@ -8,10 +8,10 @@ const Competences = (props) => {
         return (
                 <>
                         <br />
-                        <h2>Compétences</h2>
-                        <Card body className="text-left" fluid>
-                                <CardTitle><b>Développement</b></CardTitle>
-                                <CardText>HTML / CSS / JS <br />
+                        <Card body fluid style={{ backgroundColor: '#2eae71', color: '#FFFFFF', border: "0px", borderRadius: "15px" }} >
+                                <h2 className="titres" style={{ color: "#FFFFFF" }}><b>Compétences</b></h2>
+                                <CardTitle className="text-left"><b>Développement</b></CardTitle>
+                                <CardText className="text-left">HTML / CSS / JS <br />
                                         React.js (Hooks/Context/Redux)<br />
                                         Node (Express)<br />
                                         SQL<br />
@@ -20,24 +20,27 @@ const Competences = (props) => {
                                         AGILE/SCRUM<br />
                                         Hébergement</CardText>
 
-                                <CardTitle><b>Informatique</b></CardTitle>
-                                <CardText>Diagnostique de panne<br />
+                                <CardTitle className="text-left"><b>Informatique</b></CardTitle>
+                                <CardText className="text-left">Diagnostique de panne<br />
                                         Réseaux et systèmes réseau<br />
                                         Windows, MacOS & Linux<br />
                                         Suite Adobe (Ps, Lr, Pr, Id)<br /></CardText>
                         </Card>
                         <br />
-                        <h2>Soft Skills</h2>
-                        <Card body className="text-left" fluid>
-                                <CardText>Persévérance<br />
+
+
+                        <Card body fluid style={{ border: "0px", borderRadius: "15px" }}>
+                                <h2 className="titres" style={{ color: "#2eae71" }}><b>Soft Skills</b></h2>
+                                <CardText className="text-left" style={{ color: "#333333" }}>
+                                        Persévérance<br />
                                         Esprit d’équipe<br />
                                         Sens du service<br />
                                         Communication<br /></CardText>
                         </Card>
                         <br />
-                        <h2>Intérêts</h2>
-                        <Card body className="text-left" fluid>
-                                <CardText><b>Sports :</b><br />
+                        <Card body fluid style={{ backgroundColor: '#FFFFFF', color: '##333333', border: "0px", borderRadius: "15px" }} >
+                                <h2 className="titres" style={{ color: "#2eae71" }}><b>Intérêts</b></h2>
+                                <CardText className="text-left"><b>Sports :</b><br />
                                         Roller-Hockey depuis 20 ans<br />
                                         entraîneur (5 ans)<br />
                                         le ski, la randonnée.<br /><br />

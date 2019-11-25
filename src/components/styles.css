@@ -1,0 +1,18 @@
+.titres{
+        background-color : transparent; 
+        color : #ABABAB;
+        font-size: 20px;
+}
+.cadres{
+        border : 0px;
+}
+
+.cardTitle{
+        background-color: #89efb5;
+        color : #2dae70;
+}
+
+.styleIcon{
+        width : 22px;
+        margin : 0 5px 0 0 ;
+}
