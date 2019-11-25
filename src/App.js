@@ -25,7 +25,7 @@ function App() {
       <Row>
         <Col xs="12" md="4">
           <Row>
-            <Col>
+            <Col >
               <Contacts />
             </Col>
           </Row>

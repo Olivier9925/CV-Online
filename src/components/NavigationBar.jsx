@@ -9,12 +9,12 @@ const NavigationBar = (props) => {
                 border: "transparent solid 1px",
                 borderRadius: '5px',
                 margin: "10px 0px",
-                color: "#2eae71",
+                color: "#FFFFFF",
         }
         const stylePhoto = {
                 width: "100px",
                 borderRadius: '50%',
-                border: "solid #2eae71 2px"
+                border: "solid #3a2462 2px"
         }
 
         return (
@@ -23,7 +23,7 @@ const NavigationBar = (props) => {
                         <Container fluid>
                                 <img src={photoOAJ} style={stylePhoto} /><br /><br />
                                 <h1 style={{ fontSize: "25px" }}>Olivier <b>ALLARD-JACQUIN</b></h1>
-                                <p className="lead" style={{ color: "#ABABAB", fontSize: "15px" }}>Développeur Web FullStack, JS, <b>React</b>, Node (junior)</p>
+                                <p className="lead" style={{ color: "#FFFFFF", fontSize: "15px" }}>Développeur Web FullStack, JS, <b>React</b>, Node (junior)</p>
                         </Container>
                 </Jumbotron>
         )

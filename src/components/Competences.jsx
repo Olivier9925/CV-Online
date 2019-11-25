@@ -8,7 +8,7 @@ const Competences = (props) => {
         return (
                 <>
                         <br />
-                        <Card body fluid style={{ backgroundColor: '#2eae71', color: '#FFFFFF', border: "0px", borderRadius: "15px" }} >
+                        <Card body fluid style={{ background: 'Linear-gradient(#a0bee8,#78a5ec)', color: '#FFFFFF', border: "0px", borderRadius: "15px" }} >
                                 <h2 className="titres" style={{ color: "#FFFFFF" }}><b>Compétences</b></h2>
                                 <CardTitle className="text-left"><b>Développement</b></CardTitle>
                                 <CardText className="text-left">HTML / CSS / JS <br />
