@@ -12,7 +12,7 @@ const NavigationBar = (props) => {
                 color: "#FFFFFF",
         }
         const stylePhoto = {
-                width: "100px",
+                width: "150px",
                 borderRadius: '50%',
                 border: "3px solid #ff1800"
         }
