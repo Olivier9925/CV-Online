@@ -21,7 +21,7 @@ const Contacts = (props) => {
 
 
                         <Card body fluid style={cardStyle} >
-                                <h2 className="titres" style={{ color: "#333333" }}><b>Contact</b></h2>
+                                <h2 className="titres" style={{ color: "red" }}><b>Contact</b></h2>
                                 <CardText className="text-left">
                                         <br />
                                         <b>Zone : </b>Lyon & sa banlieue<br /><br />

@@ -8,14 +8,15 @@ import Competences from './components/Competences';
 import { Container, Row, Col } from 'reactstrap';
 import Formation from './components/Formation';
 import Langues from './components/Langues';
-import Portfolio from './components/Portfolio';
+import Liens from './components/Liens';
+import Profil from './components/Profil';
 
 function App() {
 
   return (
 
-
-    <Container className="App">
+<div className={"App"}>
+    <Container>
       <Row>
         <Col><NavigationBar /></Col>
       </Row>
@@ -29,6 +30,11 @@ function App() {
               <Contacts />
             </Col>
           </Row>
+            <Row>
+                <Col>
+                    <Liens />
+                </Col>
+            </Row>
           <Row>
             <Col>
               <Competences />
@@ -36,6 +42,7 @@ function App() {
           </Row>
         </Col>
         <Col xs="12" md="8">
+          <Profil />
           <Experiences />
           <Row>
             <Col xs="12" md="8">
@@ -50,7 +57,7 @@ function App() {
 
       <br /> <br /> <br />
     </Container>
-
+</div>
 
 
   );

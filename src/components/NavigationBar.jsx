@@ -1,6 +1,6 @@
 import React from "react";
 import { Jumbotron, Container } from 'reactstrap';
-import photoOAJ from '../assets/OAJ.png'
+import photoOAJ from '../assets/OAJ.jpeg'
 
 const NavigationBar = (props) => {
 
@@ -14,7 +14,7 @@ const NavigationBar = (props) => {
         const stylePhoto = {
                 width: "100px",
                 borderRadius: '50%',
-                border: "solid #3a2462 2px"
+                border: "3px solid #ff1800"
         }
 
         return (

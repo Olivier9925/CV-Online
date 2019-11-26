@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-color: #2d2a4e;
+  background: linear-gradient(#212228,#2c2c35);
   /* background: linear-gradient(to right,#ebb302, #fdf100); */
 }
 

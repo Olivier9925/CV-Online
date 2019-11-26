@@ -3,12 +3,10 @@ import { Card, Container, CardTitle, CardText } from 'reactstrap';
 
 const Competences = (props) => {
 
-
-
         return (
                 <>
                         <br />
-                        <Card body fluid style={{ background: 'Linear-gradient(#a0bee8,#78a5ec)', color: '#FFFFFF', border: "0px", borderRadius: "15px" }} >
+                        <Card body fluid style={{ background: 'Linear-gradient(#ee121e,#f0334e)', color: '#FFFFFF', border: "0px", borderRadius: "15px" }} >
                                 <h2 className="titres" style={{ color: "#FFFFFF" }}><b>Compétences</b></h2>
                                 <CardTitle className="text-left"><b>Développement</b></CardTitle>
                                 <CardText className="text-left">HTML / CSS / JS <br />
@@ -29,24 +27,13 @@ const Competences = (props) => {
                         <br />
 
 
-                        <Card body fluid style={{ border: "0px", borderRadius: "15px" }}>
-                                <h2 className="titres" style={{ color: "#2eae71" }}><b>Soft Skills</b></h2>
+                        <Card body fluid style={{ border: "0px", borderRadius: "15px", background: 'Linear-gradient(#ffffff,#ffffff)'}}>
+                                <h2 className="titres" style={{ color: "red" }}><b>Soft Skills</b></h2>
                                 <CardText className="text-left" style={{ color: "#333333" }}>
                                         Persévérance<br />
                                         Esprit d’équipe<br />
                                         Sens du service<br />
                                         Communication<br /></CardText>
-                        </Card>
-                        <br />
-                        <Card body fluid style={{ backgroundColor: '#FFFFFF', color: '##333333', border: "0px", borderRadius: "15px" }} >
-                                <h2 className="titres" style={{ color: "#2eae71" }}><b>Intérêts</b></h2>
-                                <CardText className="text-left"><b>Sports :</b><br />
-                                        Roller-Hockey depuis 20 ans<br />
-                                        entraîneur (5 ans)<br />
-                                        le ski, la randonnée.<br /><br />
-                                        <b>Autres :</b><br />
-                                        photographie,<br />
-                                        vidéo & montage vidéo<br /></CardText>
                         </Card>
                 </>
         )
