@@ -15,13 +15,10 @@ const Profil = props => {
           borderRadius: "15px"
         }}
       >
-
-
         <CardText className="text-left">
-
           Après avoir travaillé durant une quinzaine d’années dans le support
-          informatique, je souhaite enfin réaliser mon rêve... Devenir
-          développeur Web
+          informatique, je souhaite mettre en avant mes compétences en
+          développement Web.
         </CardText>
       </Card>
     </>
