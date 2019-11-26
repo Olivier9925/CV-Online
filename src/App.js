@@ -10,6 +10,7 @@ import Formation from './components/Formation';
 import Langues from './components/Langues';
 import Liens from './components/Liens';
 import Profil from './components/Profil';
+import Meteo from './components/Meteo';
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
             </Col>
             <Col xs="12" md="4">
               <Langues />
+              <Meteo />
             </Col>
           </Row>
         </Col>
