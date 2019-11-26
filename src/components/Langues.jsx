@@ -8,10 +8,10 @@ const Langues = (props) => {
         return (
                 <>
                         <br />
-                        <Card body fluid style={{ border: "0px", borderRadius: "15px" }}>
-                                <h2 className="titres" style={{ color: "#2eae71" }}><b>Langues</b></h2>
+                        <Card body fluid style={{ backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px"  }}>
+                                <h2 className="titres" style={{ color: "#ffff" }}><b>Langues</b></h2>
 
-                                <CardText className="text-left"><b>Anglais</b> technique<br /><b>Espagnol</b> Scolaire</CardText>
+                                <CardText className="text-left"><br /><b>Anglais</b> technique<br /><br /><b>Espagnol</b> Scolaire</CardText>
                         </Card>
                 </>
         )
