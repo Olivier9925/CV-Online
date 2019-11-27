@@ -42,11 +42,6 @@ function App() {
                 <Competences />
               </Col>
             </Row>
-            <Row>
-              <Col>
-                <Portfolio />
-              </Col>
-            </Row>
           </Col>
           <Col xs="12" md="8">
             <Profil />

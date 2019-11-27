@@ -9,7 +9,7 @@ import {
 
 const items = [
         {
-                src: '../assets/projet1.png',
+                src: 'http://olivier.allard-jacquin.com/assets/projet2.png',
                 altText: 'Slide 1',
                 caption: 'Slide 1'
         },
