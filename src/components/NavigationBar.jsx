@@ -21,7 +21,7 @@ const NavigationBar = (props) => {
 
                 <Jumbotron style={styleBar} fluid>
                         <Container fluid>
-                                <img src={photoOAJ} style={stylePhoto} /><br /><br />
+                                <img src={photoOAJ} style={stylePhoto} alt="photoOAJ" /><br /><br />
                                 <h1 style={{ fontSize: "25px" }}>Olivier <b>ALLARD-JACQUIN</b></h1>
                                 <p className="lead" style={{ color: "#FFFFFF", fontSize: "15px" }}>Développeur Web FullStack, JS, <b>React</b>, Node (junior)</p>
                         </Container>

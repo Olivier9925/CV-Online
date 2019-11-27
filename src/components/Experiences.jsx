@@ -1,7 +1,7 @@
 import React from "react";
-import { Card, CardTitle, CardText, Container } from 'reactstrap';
+import { Card, CardTitle, CardText } from 'reactstrap';
 
-const Experiences = (props) => {
+const Experiences = () => {
         return (
                 <>
                         <br />

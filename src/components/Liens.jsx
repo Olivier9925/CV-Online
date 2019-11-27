@@ -4,7 +4,7 @@ import linkedin from "../assets/linkedin.png"
 import cv from "../assets/cv.png"
 import git from "../assets/git.png"
 
-const Liens = (props) => {
+const Liens = () => {
 
 
         const styleButton = {
@@ -30,9 +30,9 @@ const Liens = (props) => {
 
                 <div style={styleCard}>
 
-                        <a href="http://bit.ly/2WSe3dS" target="_blank"><Button color="danger" style={styleButton} ><img src={linkedin} className="styleIcon" />LinkedIn</Button></a>
-                        <a href="http://bit.ly/2WRwGyY" target="_blank"><Button color="danger" style={styleButton} ><img src={git} className="styleIcon" />GitHub</Button></a>
-                        <a href="http://olivier.allard-jacquin.com/CV.pdf" target="_blank"><Button color="danger" style={styleButton} ><img src={cv} className="styleIcon" />CV</Button></a>
+                        <a href="http://bit.ly/2WSe3dS" ><Button color="danger" style={styleButton} ><img src={linkedin} className="styleIcon" alt="linkedin Logo"/>LinkedIn</Button></a>
+                        <a href="http://bit.ly/2WRwGyY" ><Button color="danger" style={styleButton} ><img src={git} className="styleIcon" alt="git logo" />GitHub</Button></a>
+                        <a href="http://olivier.allard-jacquin.com/CV.pdf" ><Button color="danger" style={styleButton} ><img src={cv} className="styleIcon" alt="cv logo" />CV</Button></a>
 
                 </div>
         )

@@ -1,9 +1,8 @@
 import React from "react";
-import { Card, CardText, Badge } from 'reactstrap';
-import Liens from './Liens'
+import { Card, CardText } from 'reactstrap';
 import BGcontact from '../assets/BG_contact.png'
 
-const Contacts = (props) => {
+const Contacts = () => {
 
         const cardStyle = {
                 border: "0px",

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card, Container, CardTitle, CardText } from 'reactstrap';
+import { Card, CardText } from 'reactstrap';
 
-const Langues = (props) => {
+const Langues = () => {
 
 
 

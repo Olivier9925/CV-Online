@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card, Container, CardTitle, CardText } from 'reactstrap';
+import { Card, CardTitle, CardText } from 'reactstrap';
 
-const Competences = (props) => {
+const Competences = () => {
 
         return (
                 <>
