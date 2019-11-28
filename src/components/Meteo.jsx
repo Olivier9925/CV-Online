@@ -7,10 +7,10 @@ class Meteo extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      meteo: 'loading',
-      temperature: 'loading',
-      ville: 'loading',
-      weather: 'loading'
+      meteo: 'loading...',
+      temperature: 'loading...',
+      ville: 'loading...',
+      weather: 'loading...'
     };
   }
 

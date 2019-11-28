@@ -57,6 +57,11 @@ function App() {
             </Row>
           </Col>
         </Row>
+        <Row>
+          <Col fluid>
+            <Portfolio />
+          </Col>
+        </Row>
 
         <br /> <br /> <br />
       </Container>
