@@ -12,6 +12,7 @@ import Liens from './components/Liens';
 import Profil from './components/Profil';
 import Meteo from './components/Meteo';
 import Portfolio from './components/Portfolio';
+import ContactForm from './components/ContactForm';
 
 function App() {
 
@@ -42,6 +43,11 @@ function App() {
                 <Competences />
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <ContactForm />
+              </Col>
+            </Row>
           </Col>
           <Col xs="12" md="8">
             <Profil />
@@ -57,11 +63,11 @@ function App() {
             </Row>
           </Col>
         </Row>
-        <Row>
+        {/*  <Row>
           <Col fluid>
             <Portfolio />
           </Col>
-        </Row>
+        </Row> */}
 
         <br /> <br /> <br />
       </Container>
