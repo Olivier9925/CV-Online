@@ -34,7 +34,7 @@ class Meteo extends Component {
 
     return (
       <div>
-        <Card body fluid style={{ backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px", margin: "20px 0 0 0" }} >
+        <Card body  style={{ backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px", margin: "20px 0 0 0" }} >
           <div style={tempStyle} ><b>{ville.name}</b><br /><br /></div>
           <div style={tempStyle} >{tempC.toFixed(1)}°C</div>
           <div style={tempStyle} >{weather.description}</div>

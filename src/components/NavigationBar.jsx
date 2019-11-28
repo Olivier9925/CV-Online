@@ -2,7 +2,8 @@ import React from "react";
 import { Jumbotron, Container } from 'reactstrap';
 import photoOAJ from '../assets/OAJ.jpeg'
 
-const NavigationBar = (props) => {
+const NavigationBar = (props) =>
+{
 
         const styleBar = {
                 backgroundColor: "transparent",
@@ -19,7 +20,7 @@ const NavigationBar = (props) => {
 
         return (
 
-                <Jumbotron style={styleBar} fluid>
+                <Jumbotron style={styleBar} >
                         <Container fluid>
                                 <img src={photoOAJ} style={stylePhoto} alt="photoOAJ" /><br /><br />
                                 <h1 style={{ fontSize: "25px" }}>Olivier <b>ALLARD-JACQUIN</b></h1>

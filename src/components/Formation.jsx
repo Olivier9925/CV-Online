@@ -1,7 +1,8 @@
 import React from 'react'
 import { Card, CardTitle, CardText } from 'reactstrap'
 
-const Formation = () => {
+const Formation = () =>
+{
       return (
             <>
                   <br />
@@ -9,7 +10,7 @@ const Formation = () => {
                   <Card
                         body
                         className="text-left"
-                        fluid
+
                         style={{
                               backgroundColor: 'transparent',
                               color: '#FFFFFF',
@@ -31,7 +32,7 @@ const Formation = () => {
                   <Card
                         body
                         className="text-left"
-                        fluid
+
                         style={{
                               backgroundColor: 'transparent',
                               color: '#FFFFFF',

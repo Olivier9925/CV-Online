@@ -2,7 +2,8 @@ import React from "react";
 import { Card, CardText } from 'reactstrap';
 import BGcontact from '../assets/BG_contact.png'
 
-const Contacts = () => {
+const Contacts = () =>
+{
 
         const cardStyle = {
                 border: "0px",
@@ -19,7 +20,7 @@ const Contacts = () => {
                         <br />
 
 
-                        <Card body fluid style={cardStyle} >
+                        <Card body style={cardStyle} >
                                 <h2 className="titres" style={{ color: "red" }}><b>Contact</b></h2>
                                 <CardText className="text-left">
                                         <br />
