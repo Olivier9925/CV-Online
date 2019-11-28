@@ -1,13 +1,14 @@
 import React from "react";
 import { Card, CardText } from "reactstrap";
 
-const Profil = () => {
+const Profil = () =>
+{
   return (
     <>
       <br />
       <Card
         body
-        fluid
+
         style={{
           backgroundColor: "transparent",
           color: "#FFFFFF",

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Card, CardTitle, CardText } from 'reactstrap';
 
-const Competences = () => {
+const Competences = () =>
+{
 
         return (
                 <>
                         <br />
-                        <Card body fluid style={{ background: 'Linear-gradient(#ee121e,#f0334e)', color: '#FFFFFF', border: "0px", borderRadius: "15px" }} >
+                        <Card body style={{ background: 'Linear-gradient(#ee121e,#f0334e)', color: '#FFFFFF', border: "0px", borderRadius: "15px" }} >
                                 <h2 className="titres" style={{ color: "#FFFFFF" }}><b>Compétences</b></h2>
                                 <CardTitle className="text-left"><b>Développement</b></CardTitle>
                                 <CardText className="text-left">HTML / CSS / JS <br />
@@ -27,7 +28,7 @@ const Competences = () => {
                         <br />
 
 
-                        <Card body fluid style={{ border: "0px", borderRadius: "15px", background: 'Linear-gradient(#ffffff,#ffffff)'}}>
+                        <Card body style={{ border: "0px", borderRadius: "15px", background: 'Linear-gradient(#ffffff,#ffffff)' }}>
                                 <h2 className="titres" style={{ color: "red" }}><b>Soft Skills</b></h2>
                                 <CardText className="text-left" style={{ color: "#333333" }}>
                                         Persévérance<br />
