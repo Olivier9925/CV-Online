@@ -1,7 +1,8 @@
 import React from "react";
 import { Card, CardTitle, CardText } from 'reactstrap';
 
-const Experiences = () => {
+const Experiences = () =>
+{
         return (
                 <>
                         <br />
@@ -19,7 +20,7 @@ const Experiences = () => {
                                 <CardText>Spineway | Ecully</CardText>
                                 <CardText>Gestion du parc informatique (Réseau, serveurs, terminaux 50 postes)<br />
                                         Conception d’applications web telles que :<br /><br />
-                                        - le site web : www.spineway.com<br />
+                                        - le site web : <a href="http://www.spineway.com" target="_blank" rel="noopener noreferrer"><font style={{ color: "white" }} >www.spineway.com</font></a><br />
                                         - supports de vente et outils clients online : www.spineway.support<br />
                                         - l’Intranet.</CardText>
                         </Card>

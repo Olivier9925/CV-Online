@@ -1,88 +1,90 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Button, Input } from 'reactstrap'
 
+class ContactForm extends Component
+{
+      constructor(props)
+      {
+            super(props)
+            this.state = {
+                  message: ' ',
+                  email: ' ',
+            }
 
+            this.onChange = this.onChange.bind(this)
+            this.submitForm = this.submitForm.bind(this)
+      }
 
-class ContactForm extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: " ",
-        }
+      submitForm(e)
+      {
+            e.preventDefault()
 
-        this.onChange = this.onChange.bind(this);
-        this.submitForm = this.submitForm.bind(this);
-    }
+            const config = {
+                  method: 'POST',
+                  headers: {
+                        'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(this.state),
+            }
 
-    submitForm(e) {
-        e.preventDefault();
+            //console.log(config)
 
-        const config = {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(this.state)
-        };
+            const url = 'http://127.0.0.1:3001/api/message'
 
-        console.log(config);
-
-        const url = "../back/index.js";
-
-        fetch(url, config)
-            .then(res => res.json())
-            .then(res => {
-                if (res.error) {
-                    alert(res.error);
-                } else {
-                    alert(`ajouté avec l'ID ${res}!`);
-                }
+            fetch(url, config)
+                  .then(res => res.json())
+                  .then(res =>
+                  {
+                        if (res.error) {
+                              alert(res.error)
+                        } else {
+                              alert(`ajouté avec l'ID ${res}!`)
+                        }
+                  })
+                  .catch(e =>
+                  {
+                        console.error(e)
+                        //alert('Erreur ??')
+                  })
+      }
+      onChange(e)
+      {
+            this.setState({
+                  [e.target.name]: e.target.value,
             })
-            .catch(e => {
-                console.error(e);
-                alert("Erreur");
-            });
-    }
-    onChange(e) {
-        console.log(e.target.name)
-        this.setState({
-            [e.target.name]: e.target.value,
-        });
-        //console.log(JSON.stringify(this.state));
-    }
-    render() {
-        const styleForm = {
-            position: "absolute",
-            border: "solid 2px #ABABAB",
-            borderRadius: "10px",
-            padding: "15px",
-            width: "500px",
-            margin: "20px"
-        };
-        const styleInput = {
-            width: "300px",
-            border: "1px dotted #ABABAB",
-            borderRadius: "5px"
-        };
+            //console.log(JSON.stringify(this.state));
+      }
+      render()
+      {
 
-
-        return (
-            <div>
-                <form onSubmit={this.submitForm}>
-                    <label htmlFor="title">Name</label>
-                    <br />
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        onChange={this.onChange}
-                        value={this.state.name}
-                        style={styleInput}
-                    />
-                    <input type="submit" value="Envoyer" />
-                </form>
-            </div >
-        )
-    }
+            return (
+                  <div>
+                        <form onSubmit={this.submitForm}>
+                              <label htmlFor="title">Name</label>
+                              <br />
+                              <Input
+                                    type="text"
+                                    id="email"
+                                    name="email"
+                                    onChange={this.onChange}
+                                    placeholder="eMail"
+                              />
+                              <br />
+                              <Input
+                                    type="text"
+                                    id="message"
+                                    name="message"
+                                    onChange={this.onChange}
+                                    placeholder="message"
+                              />
+                              <br />
+                              <Button type="submit" color="danger">
+                                    Envoyer
+                              </Button>
+                        </form>
+                  </div>
+            )
+      }
 }
 
-export default ContactForm;
+export default ContactForm
