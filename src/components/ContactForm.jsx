@@ -6,8 +6,11 @@ class ContactForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: "no name"
+            name: " ",
         }
+
+        this.onChange = this.onChange.bind(this);
+        this.submitForm = this.submitForm.bind(this);
     }
 
     submitForm(e) {
@@ -20,6 +23,8 @@ class ContactForm extends Component {
             },
             body: JSON.stringify(this.state)
         };
+
+        console.log(config);
 
         const url = "../back/index.js";
 
@@ -38,8 +43,9 @@ class ContactForm extends Component {
             });
     }
     onChange(e) {
+        console.log(e.target.name)
         this.setState({
-            [e.target.name]: e.target.value
+            [e.target.name]: e.target.value,
         });
         //console.log(JSON.stringify(this.state));
     }
@@ -62,22 +68,18 @@ class ContactForm extends Component {
         return (
             <div>
                 <form onSubmit={this.submitForm}>
-                    <legend>Informations</legend>
+                    <label htmlFor="title">Name</label>
                     <br />
-                    <div>
-                        <label htmlFor="title">Name</label>
-                        <br />
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            onChange={this.onChange}
-                            value={this.state.name}
-                            style={styleInput}
-                        />
-                    </div>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        onChange={this.onChange}
+                        value={this.state.name}
+                        style={styleInput}
+                    />
+                    <input type="submit" value="Envoyer" />
                 </form>
-
             </div >
         )
     }

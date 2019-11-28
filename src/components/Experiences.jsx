@@ -5,7 +5,7 @@ const Experiences = () => {
         return (
                 <>
                         <br />
-                        <h2 style={{color : "red"}}>Expériences</h2>
+                        <h2 style={{ color: "red" }}>Expériences</h2>
 
                         <Card body className="text-left" fluid style={{ backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px" }} >
 
@@ -14,7 +14,7 @@ const Experiences = () => {
                                 <CardText>Réalisation de divers projets (React.js) visibles sur GitHub</CardText>
                         </Card>
                         <br />
-                        <Card body className="text-left" fluid style={{  backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px" }} >
+                        <Card body className="text-left" fluid style={{ backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px" }} >
                                 <CardTitle><b>Technicien Informatique</b></CardTitle>
                                 <CardText>Spineway | Ecully</CardText>
                                 <CardText>Gestion du parc informatique (Réseau, serveurs, terminaux 50 postes)<br />
@@ -24,7 +24,7 @@ const Experiences = () => {
                                         - l’Intranet.</CardText>
                         </Card>
                         <br />
-                        <Card body className="text-left" fluid style={{  backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px" }} >
+                        <Card body className="text-left" fluid style={{ backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px" }} >
                                 <CardTitle><b>Technicien Informatique, Gérant</b></CardTitle>
                                 <CardText>Oxygene Informatique | Craponne<br /><br />
                                         Création & gestion de la SARL.<br />
@@ -34,7 +34,7 @@ const Experiences = () => {
 
                         </Card>
                         <br />
-                        <Card body className="text-left" fluid style={{  backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px" }} >
+                        <Card body className="text-left" fluid style={{ backgroundColor: 'transparent', color: '#FFFFFF', border: "1px solid #3c3e4b", borderRadius: "15px" }} >
                                 <CardTitle><b>Employé commercial de nuit</b></CardTitle>
                                 <CardText>E.Leclerc | Grezieu la Varenne<br /><br />
                                         Mise en rayon, préparation de commandes, organisation, gestion et
