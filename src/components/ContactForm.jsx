@@ -8,8 +8,8 @@ class ContactForm extends Component
       {
             super(props)
             this.state = {
-                  message: ' ',
-                  email: ' ',
+                  message: 'Message',
+                  email: 'eMail ',
             }
 
       }
@@ -34,13 +34,14 @@ class ContactForm extends Component
                         //On traite ici les erreurs éventuellement survenues
                         console.log(erreur);
                   });
+            this.setState({ message: "Message", email: "eMail" })
+            alert('Merci')
       }
       onChange = (e) =>
       {
             this.setState({
                   [e.target.name]: e.target.value,
             })
-            //console.log(JSON.stringify(this.state));
       }
       render()
       {
@@ -57,8 +58,9 @@ class ContactForm extends Component
                                           type="text"
                                           id="email"
                                           name="email"
+                                          value={this.state.email}
                                           onChange={this.onChange}
-                                          placeholder="eMail"
+                                          placeholder={this.state.email}
                                     />
                                     <br />
                                     <Input
@@ -66,7 +68,8 @@ class ContactForm extends Component
                                           id="message"
                                           name="message"
                                           onChange={this.onChange}
-                                          placeholder="message"
+                                          value={this.state.message}
+                                          placeholder={this.state.message}
                                     />
                                     <br />
                                     <Button type="submit" color="danger">
